@@ -71,3 +71,38 @@ p{
         font-family: 'Courier New', Courier, monospace;
     }
 }
+
+
+@media only screen and (min-width: 300px) and (max-width:600px ) {
+    header{
+        width: 100%;
+        background-color: #FFF;
+        height: 70px;
+        filter: drop-shadow(1px 1px #000);
+    }
+    
+    #voltar{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        color: #000;
+        margin-top: 25px;
+        font-size: 25px;
+      }
+      li{
+        display: flex;
+        justify-content: center;
+    }
+    #conteudo{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        margin-top: 100px;
+        text-align: center;
+        width: 300px;
+    }
+
+    p{
+        margin-top: 100px;
+    }
+}
